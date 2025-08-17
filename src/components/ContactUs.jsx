@@ -25,7 +25,7 @@ const ContactUs = () => {
             <RiMailLine className="text-3xl mr-4" />
             <div>
               <p className="text-lg font-semibold">Email</p>
-              <p className="text-neutral-600">info@UrbanWood.com</p>
+              <p className="text-neutral-600">info@UrbanWoods.com</p>
             </div>
           </div>
           {/* Address */}
