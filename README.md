@@ -1,13 +1,125 @@
-# React + Vite
+# 🌿 Urban Woods
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Urban Woods is a modern, responsive web application built using **React** and **Vite**, designed to deliver a fast and smooth user experience. The project leverages Vite’s blazing-fast development server and optimized build process to ensure high performance and scalability.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://urban-woods.vercel.app/](https://urban-woods.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Urban-Woods
+* ⚡ Fast development with **Vite**
+* ⚛️ Component-based architecture using **React**
+* 🔄 Hot Module Replacement (HMR)
+* 📱 Responsive UI
+* 🧹 Clean and maintainable code structure
+* 📦 Optimized production build
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js
+* **Build Tool:** Vite
+* **Language:** JavaScript (ES6+)
+* **Styling:** CSS
+* **Deployment:** Vercel
+
+---
+
+## 📁 Project Structure
+
+```
+urban-woods/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── components/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/urban-woods.git
+```
+
+2️⃣ **Navigate to the project directory**
+
+```bash
+cd urban-woods
+```
+
+3️⃣ **Install dependencies**
+
+```bash
+npm install
+```
+
+4️⃣ **Start the development server**
+
+```bash
+npm run dev
+```
+
+The app will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+The build output will be generated in the `dist/` folder.
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel**.
+
+Deployment steps:
+
+* Framework Preset: **Vite**
+* Build Command: `npm run build`
+* Output Directory: `dist`
+
+---
+
+## 📌 Future Enhancements
+
+* Add routing with React Router
+* Improve UI with animations
+* Integrate backend / APIs
+* Add authentication
+* Enhance SEO and accessibility
+
+---
+
+## 👨‍💻 Author
+
+**Saksham Kothari**
+B.Tech CSE | Web Developer
+Skilled in React, Java, AWS, UI/UX
+
+---
